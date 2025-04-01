@@ -1,0 +1,15 @@
+[project]
+name = "Aufgabe3_pdm"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "MoCa000", email = "mth.cassan@mci4me.at"},
+]
+dependencies = []
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "-"}
+
+
+[tool.pdm]
+distribution = false
