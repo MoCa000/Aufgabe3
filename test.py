@@ -16,3 +16,4 @@ if __name__ == "__main__":
     print(subject.__dict__)
     #print(subject.estimate_max_hr)
     #print(subject.max_hr_bpm)
+    #Pandas Installiert
