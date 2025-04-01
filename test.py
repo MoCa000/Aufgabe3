@@ -10,7 +10,9 @@ if __name__ == "__main__":
     experiment.add_subject(subject)
     experiment.add_supervisor(supervisor)
 
-    #print(experiment)
+    print()
+    print(experiment)
+    print()
     print(experiment.__dict__) 
     print(supervisor.__dict__)
     print(subject.__dict__)

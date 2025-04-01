@@ -34,3 +34,8 @@ class Experiment():
 
     def add_supervisor(self, supervisor):
         self.supervisor = supervisor
+
+    def __str__(self):
+        return f"Experiment: {self.name}, Date: {self.date}, Supervisor: {self.supervisor.first_name} {self.supervisor.last_name}, Subject: {self.subject.first_name} {self.subject.last_name}, Max HR: {self.subject.max_hr_bpm} bpm"
+    def __repr__(self):
+        return f"Experiment({self.name}, {self.date}, {self.supervisor}, {self.subject})"
